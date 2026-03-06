@@ -3,8 +3,8 @@
         {
             "name": "ASRPRO",
             "includePath": [
-                "${workspaceFolder}/github_headers/asrpro",  // 指向GitHub上的头文件
-                "${workspaceFolder}/asrpro_project/include"  // 如果还想看ASRPRO本地头文件
+                "${workspaceFolder}/.vscode/ASR/myLib" // 指向GitHub上的头文件
+                //"${workspaceFolder}/asrpro_project/include"  // 如果还想看ASRPRO本地头文件
             ],
             "defines": [
                 "__ASRPRO__"  // 可选，用于条件编译
@@ -14,10 +14,10 @@
             "intelliSenseMode": "gcc-x64"
         },
         {
-            "name": "HMI",
+            "name": "HMIstudio",
             "includePath": [
-                "${workspaceFolder}/github_headers/hmi",     // 指向GitHub上的头文件
-                "${workspaceFolder}/hmi_project/include"
+                "${workspaceFolder}/.vscode/HMI/include"     // 指向GitHub上的头文件
+                //"${workspaceFolder}/HMI/include"
             ],
             "defines": [
                 "__HMI__"
