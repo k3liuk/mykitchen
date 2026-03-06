@@ -1,0 +1,49 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "build project",           // 任务名称，可自定义
+            "type": "shell",                     // 使用shell执行命令
+            "command": "gcc",                     // 编译器命令（根据你的环境修改）
+            "args": [
+                // 调试信息
+                "-g",
+                
+                // 指定头文件路径（关键！告诉编译器去哪里找头文件）
+                "-I", "${workspaceFolder}/include",
+                
+                // 编译所有源文件
+                "${workspaceFolder}/src/*.c",
+                
+                // 指定输出文件路径和名称
+                "-o", "${workspaceFolder}/build/program",
+                
+                // 可选的编译选项
+                "-Wall",                          // 开启所有警告
+                "-std=c99"                         // 指定C标准（可选）
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"       // 以项目根目录为工作目录
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true                  // 设为默认编译任务
+            },
+            "problemMatcher": ["$gcc"],            // 错误解析（自动识别编译报错）
+            "detail": "编译整个项目（include/ + src/）"
+        },
+        {
+            "label": "clean",
+            "type": "shell",
+            "command": "rm",
+            "args": [
+                "-rf",
+                "${workspaceFolder}/build/*"
+            ],
+            "options": {
+                "cwd": "${workspaceFolder}"
+            },
+            "problemMatcher": []
+        }
+    ]
+}
