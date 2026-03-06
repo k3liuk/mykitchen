@@ -9,7 +9,7 @@
             ],
             "defines": [
                 "__ASRPRO__",
-                "_DEBUG"
+             //   "_DEBUG"
             ],
             "compilerPath": "",
             "cStandard": "c11",
