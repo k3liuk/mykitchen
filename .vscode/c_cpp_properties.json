@@ -1,20 +1,30 @@
 {
     "configurations": [
         {
-            "name": "Win32",
+            "name": "ASRPRO",
             "includePath": [
-                "${workspaceFolder}/Project/.ASRcode/myLib"
+                "${workspaceFolder}/github_headers/asrpro",  // 指向GitHub上的头文件
+                "${workspaceFolder}/asrpro_project/include"  // 如果还想看ASRPRO本地头文件
             ],
             "defines": [
-                "_DEBUG",
-                "UNICODE",
-                "_UNICODE"
+                "__ASRPRO__"  // 可选，用于条件编译
             ],
-            "windowsSdkVersion": "10.0.19041.0",
-            "compilerPath": "cl.exe",
-            "cStandard": "c17",
-            "cppStandard": "c++17",
-            "intelliSenseMode": "windows-msvc-x64"
+            "compilerPath": "",     // 留空，因为不用VS Code编译
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64"
+        },
+        {
+            "name": "HMI",
+            "includePath": [
+                "${workspaceFolder}/github_headers/hmi",     // 指向GitHub上的头文件
+                "${workspaceFolder}/hmi_project/include"
+            ],
+            "defines": [
+                "__HMI__"
+            ],
+            "compilerPath": "",
+            "cStandard": "c11",
+            "intelliSenseMode": "gcc-x64"
         }
     ],
     "version": 4
