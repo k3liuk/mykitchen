@@ -1,42 +1,11 @@
-{
-    "configurations": [
-        {
-            "name": "ASRPRO",
-            "includePath": [
-                "${workspaceFolder}/.vscode/ASR/myLib" // 指向GitHub上的头文件
-                //"${workspaceFolder}/asrpro_project/include"  // 如果还想看ASRPRO本地头文件
-            ],
-            "defines": [
-                "__ASRPRO__"  // 可选，用于条件编译
-            ],
-            "compilerPath": "",     // 留空，因为不用VS Code编译
-            "cStandard": "c11",
-            "intelliSenseMode": "gcc-x64"
-        },
-        {
-            "name": "HMIstudio",
-            "includePath": [
-                "${workspaceFolder}/.vscode/HMI/include"     // 指向GitHub上的头文件
-                //"${workspaceFolder}/HMI/include"
-            ],
-            "defines": [
-                "__HMI__"
-            ],
-            "compilerPath": "",
-            "cStandard": "c11",
-            "intelliSenseMode": "gcc-x64"
-        }
-    ],
-    "version": 4
-}
 
 {
     "configurations": [
         {
             "name": "ASRPRO-Editor",
             "includePath": [
-                "${workspaceFolder}/github_headers/asrpro",
-                "${workspaceFolder}/asrpro_project/include"
+                "${workspaceFolder}/.vscode/ASR/myLib" // 指向GitHub上的头文件
+                //"${workspaceFolder}/asrpro_project/include"  // 如果还想看ASRPRO本地头文件
             ],
             "defines": [
                 "__ASRPRO__",
@@ -49,18 +18,18 @@
             "configurationProvider": "ms-vscode.cpptools",
             "browse": {
                 "path": [
-                    "${workspaceFolder}/asrpro_project/src",
-                    "${workspaceFolder}/github_headers/asrpro",
-                    "${workspaceFolder}/asrpro_project/include"
+                    "${workspaceFolder}/.vscode/ASR/src",
+                    "${workspaceFolder}/.vscode/ASR/myLib"//,
+                //    "${workspaceFolder}/asrpro_project/include"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }
         },
         {
             "name": "HMI-Editor",
-            "includePath": [
-                "${workspaceFolder}/github_headers/hmi",
-                "${workspaceFolder}/hmi_project/include"
+              "includePath": [
+                "${workspaceFolder}/.vscode/HMI/include"     // 指向GitHub上的头文件
+                //"${workspaceFolder}/HMI/include"
             ],
             "defines": [
                 "__HMI__"
@@ -72,9 +41,9 @@
             "configurationProvider": "ms-vscode.cpptools",
             "browse": {
                 "path": [
-                    "${workspaceFolder}/hmi_project/src",
-                    "${workspaceFolder}/github_headers/hmi",
-                    "${workspaceFolder}/hmi_project/include"
+                    "${workspaceFolder}/.vscode/HMI/src",
+                    "${workspaceFolder}/.vscode/HMI/Lib",
+                    "${workspaceFolder}/.vscode/HMI/include"
                 ],
                 "limitSymbolsToIncludedHeaders": false
             }
