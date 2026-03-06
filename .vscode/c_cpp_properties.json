@@ -29,3 +29,57 @@
     ],
     "version": 4
 }
+
+{
+    "configurations": [
+        {
+            "name": "ASRPRO-Editor",
+            "includePath": [
+                "${workspaceFolder}/github_headers/asrpro",
+                "${workspaceFolder}/asrpro_project/include"
+            ],
+            "defines": [
+                "__ASRPRO__",
+                "_DEBUG"
+            ],
+            "compilerPath": "",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cpptools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/asrpro_project/src",
+                    "${workspaceFolder}/github_headers/asrpro",
+                    "${workspaceFolder}/asrpro_project/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        },
+        {
+            "name": "HMI-Editor",
+            "includePath": [
+                "${workspaceFolder}/github_headers/hmi",
+                "${workspaceFolder}/hmi_project/include"
+            ],
+            "defines": [
+                "__HMI__"
+            ],
+            "compilerPath": "",
+            "cStandard": "c11",
+            "cppStandard": "c++17",
+            "intelliSenseMode": "gcc-x64",
+            "configurationProvider": "ms-vscode.cpptools",
+            "browse": {
+                "path": [
+                    "${workspaceFolder}/hmi_project/src",
+                    "${workspaceFolder}/github_headers/hmi",
+                    "${workspaceFolder}/hmi_project/include"
+                ],
+                "limitSymbolsToIncludedHeaders": false
+            }
+        }
+    ],
+    "version": 4
+}
+
