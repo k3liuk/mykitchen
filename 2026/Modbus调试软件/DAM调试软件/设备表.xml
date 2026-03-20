@@ -1,0 +1,54 @@
+<?xml version="1.0"  encoding="UTF-8" ?>
+<Server>
+<CompanyInfo CompanyName="北京聚英翱翔电子有限公司"/>
+<Product_1 Name="Custom" DO_START="0" DO="16" DI_START="0" DI="16" AI_START="0" AI="16" AO_START="0" AO="16" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_2 Name="DAM0100B" DO_START="0" DO="1" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_3 Name="DAM0200" DO_START="0" DO="2" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_4 Name="DAM0204" DO_START="0" DO="2" DI_START="0" DI="4" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_5 Name="DAM0222" DO_START="0" DO="2" DI_START="0" DI="2" AI_START="0" AI="2" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_6 Name="DAM0400" DO_START="0" DO="4" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_7 Name="DAM0404A" DO_START="0" DO="4" DI_START="0" DI="4" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_8 Name="DAM0800" DO_START="0" DO="8" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_9 Name="DAM0808" DO_START="0" DO="8" DI_START="0" DI="8" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_10 Name="DAM1012A" DO_START="0" DO="10" DI_START="0" DI="0" AI_START="0" AI="12" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_11 Name="DAM1012D" DO_START="0" DO="10" DI_START="0" DI="12" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_12 Name="DAM1600" DO_START="0" DO="16" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_13 Name="DAM1616" DO_START="0" DO="16" DI_START="0" DI="16" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_14 Name="DAM2010" DO_START="0" DO="0" DI_START="0" DI="20" AI_START="0" AI="10" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_15 Name="DAM4400" DO_START="0" DO="4" DI_START="0" DI="4" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_16 Name="DAM10102" DO_START="0" DO="10" DI_START="0" DI="10" AI_START="0" AI="2" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_17 Name="DAM14142" DO_START="0" DO="2" DI_START="0" DI="14" AI_START="0" AI="14" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_18 Name="DAM131421" DO_START="0" DO="2" DI_START="0" DI="14" AI_START="0" AI="13" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_19 Name="DAM0A02" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="10" AO_START="0" AO="2" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_20 Name="DAM0100A" DO_START="0" DO="1" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_21 Name="DAM4100" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="4" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_22 Name="DAM6640" DO_START="0" DO="6" DI_START="0" DI="12" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_23 Name="DAM6120" DO_START="0" DO="9" DI_START="0" DI="0" AI_START="0" AI="12" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_24 Name="DAM0606" DO_START="0" DO="6" DI_START="0" DI="6" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_25 Name="DAM6600" DO_START="0" DO="6" DI_START="0" DI="6" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_26 Name="DAMD8100" DO_START="0" DO="8" DI_START="0" DI="20" AI_START="0" AI="11" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_27 Name="PT02" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="2" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_28 Name="PT03" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="3" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_29 Name="PT04" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="4" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_30 Name="PT06" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="6" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_31 Name="PT08" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="8" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_32 Name="PT12" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="12" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_33 Name="DAMDS04" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="4" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_34 Name="DAMDS08" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="8" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_35 Name="DAMDS12" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="12" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="1"/>
+<Product_36 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_37 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_38 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_39 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_40 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_41 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_42 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_43 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_44 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_45 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_46 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_47 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_48 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_49 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+<Product_50 Name="" DO_START="0" DO="0" DI_START="0" DI="0" AI_START="0" AI="0" AO_START="0" AO="0" Baud1="1000" Baud2="1001" OffsetAddr="1002" WorkMode="1003" JDTime="1004" RAddr="1000" IsValid="0"/>
+</Server>
